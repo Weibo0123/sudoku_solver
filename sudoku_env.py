@@ -1,4 +1,5 @@
 # sudoku_env
+
 class SudokuEnv:
     def __init__(self, board):
         self.board = [row[:] for row in board]
